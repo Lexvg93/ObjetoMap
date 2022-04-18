@@ -10,3 +10,6 @@ Objetos y Maps son similares en cuanto a funcionamiento (tiene asociado claves a
 let codigosPostales = new Map([[49, "Zamora"], [37, "Salamanca"], [47, "Valladolid"]]);
 let matriculas = new Map([["ZA", "Zamora"], ["SA", "Salamanca"], ["VA", "Valladolid"]]);
 
+//Propiedades
+//size : tamaño del Map
+console.log(codigosPostales.size);
