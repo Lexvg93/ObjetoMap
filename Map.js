@@ -13,3 +13,6 @@ let matriculas = new Map([["ZA", "Zamora"], ["SA", "Salamanca"], ["VA", "Vallado
 //Propiedades
 //size : tamaño del Map
 console.log(codigosPostales.size);
+//Metodos
+//get: devuelve el valor asociado a una clave (o undefined si no hay ninguno)
+console.log(codigosPostales.get(49));
