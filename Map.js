@@ -7,5 +7,6 @@ Objetos y Maps son similares en cuanto a funcionamiento (tiene asociado claves a
 -Map es iterable; para iterar Object necesitamos primero las claves para iterar sobre el
 -Un Object tiene prototipo; claves por defecto en un Map pueden colisionar con las de un object
 */
-
+let codigosPostales = new Map([[49, "Zamora"], [37, "Salamanca"], [47, "Valladolid"]]);
+let matriculas = new Map([["ZA", "Zamora"], ["SA", "Salamanca"], ["VA", "Valladolid"]]);
 
