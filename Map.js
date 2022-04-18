@@ -20,3 +20,6 @@ console.log(codigosPostales.get(49));
 //set: establece un valor asociado a una clave
 codigosPostales.set(47, "Pucela");
 console.log(codigosPostales.get(47)); 
+
+//has: comprueba si el mapa contiene un elemento indicado por su clave o no
+console.log(matriculas.has("ZA")); 
