@@ -31,3 +31,19 @@ console.log(matriculas.has("ZA"));
 //clear: elimina todos los elementos de un objeto Map
 codigosPostales.clear();
 console.log("Tamaño de codigos postales: "+codigosPostales.size);
+
+//Iteradores
+//Keys: devuelve un iterador con las claves del mapa ordenadas
+//values: devuelve un iterador con los valores del mapa ordenados
+//entries: devuelve un iterador con los pares clave-valor del mapa ordenados
+let itClaves = matriculas.keys();
+let itValores = matriculas.values();
+let itPares = matriculas.entries();
+
+
+    console.log(itClaves.next().value);
+    console.log(itClaves.next().value);
+    console.log(itValores.next().value);
+    console.log(itValores.next().value);
+    console.log(itPares.next().value);
+    console.log(itPares.next().value);
