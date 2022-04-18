@@ -16,3 +16,7 @@ console.log(codigosPostales.size);
 //Metodos
 //get: devuelve el valor asociado a una clave (o undefined si no hay ninguno)
 console.log(codigosPostales.get(49));
+
+//set: establece un valor asociado a una clave
+codigosPostales.set(47, "Pucela");
+console.log(codigosPostales.get(47)); 
