@@ -23,3 +23,7 @@ console.log(codigosPostales.get(47));
 
 //has: comprueba si el mapa contiene un elemento indicado por su clave o no
 console.log(matriculas.has("ZA")); 
+
+//delete: elimina un elemento indicado por su clave
+matriculas.delete("ZA");
+console.log(matriculas.has("ZA"));
