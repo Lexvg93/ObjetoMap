@@ -27,3 +27,7 @@ console.log(matriculas.has("ZA"));
 //delete: elimina un elemento indicado por su clave
 matriculas.delete("ZA");
 console.log(matriculas.has("ZA"));
+
+//clear: elimina todos los elementos de un objeto Map
+codigosPostales.clear();
+console.log("Tamaño de codigos postales: "+codigosPostales.size);
